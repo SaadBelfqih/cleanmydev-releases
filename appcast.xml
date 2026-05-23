@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+  <channel>
+    <title>CleanMyDev</title>
+    <link>https://saadbelfqih.github.io/cleanmydev-releases/appcast.xml</link>
+    <description>Most recent update for CleanMyDev.</description>
+    <language>en</language>
+  </channel>
+</rss>
