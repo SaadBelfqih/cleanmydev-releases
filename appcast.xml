@@ -6,20 +6,21 @@
     <description>Most recent update for CleanMyDev.</description>
     <language>en</language>
     <item>
-      <title>Version 0.1</title>
-      <pubDate>Tue, 09 Jun 2026 15:05:54 +0000</pubDate>
-      <sparkle:version>0.1</sparkle:version>
-      <sparkle:shortVersionString>0.1</sparkle:shortVersionString>
+      <title>Version 0.2</title>
+      <pubDate>Tue, 09 Jun 2026 15:54:47 +0000</pubDate>
+      <sparkle:version>0.2</sparkle:version>
+      <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
       <sparkle:releaseNotesLink>https://saadbelfqih.github.io/cleanmydev-releases/release_notes.html</sparkle:releaseNotesLink>
       <description><![CDATA[<ul>
-<li>Initial CleanMyDev public build.</li>
-<li>Adds Sparkle automatic update support.</li>
+<li>Improves the unlicensed cleanup flow so the license sheet appears immediately after review.</li>
+<li>Updates the Upgrade button styling with a smaller crown CTA.</li>
+<li>Refreshes the website demo video.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/SaadBelfqih/cleanmydev-releases/releases/download/v0.1/CleanMyDev.dmg"
+      <enclosure url="https://github.com/SaadBelfqih/cleanmydev-releases/releases/download/v0.2/CleanMyDev.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="7aZ7hqaH9UUBW8tZRD3WnEjj/hrYxZRzA/arCv7vLVmozLVUrRJGqJR98XxAK18DBycUR3tJzuGMHNXrOLszDw=="
-                 length="8309723"/>
+                 sparkle:edSignature="1F6bTLifs2tIiDPBkVHqTGEPmYZoUO3pCm13OC+oPYnjJe4Um8WSE1OX2xMnPZ0dVkUo3S3oZY9QmYmd/a4dCQ=="
+                 length="8312622"/>
     </item>
   </channel>
 </rss>
