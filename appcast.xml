@@ -5,5 +5,21 @@
     <link>https://saadbelfqih.github.io/cleanmydev-releases/appcast.xml</link>
     <description>Most recent update for CleanMyDev.</description>
     <language>en</language>
+    <item>
+      <title>Version 0.1</title>
+      <pubDate>Tue, 09 Jun 2026 15:05:54 +0000</pubDate>
+      <sparkle:version>0.1</sparkle:version>
+      <sparkle:shortVersionString>0.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:releaseNotesLink>https://saadbelfqih.github.io/cleanmydev-releases/release_notes.html</sparkle:releaseNotesLink>
+      <description><![CDATA[<ul>
+<li>Initial CleanMyDev public build.</li>
+<li>Adds Sparkle automatic update support.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/SaadBelfqih/cleanmydev-releases/releases/download/v0.1/CleanMyDev.dmg"
+                 type="application/octet-stream"
+                 sparkle:edSignature="7aZ7hqaH9UUBW8tZRD3WnEjj/hrYxZRzA/arCv7vLVmozLVUrRJGqJR98XxAK18DBycUR3tJzuGMHNXrOLszDw=="
+                 length="8309723"/>
+    </item>
   </channel>
 </rss>
