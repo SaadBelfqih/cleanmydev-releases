@@ -6,20 +6,22 @@
     <description>Most recent update for CleanMyDev.</description>
     <language>en</language>
     <item>
-      <title>Version 0.3</title>
-      <pubDate>Tue, 09 Jun 2026 20:42:46 +0000</pubDate>
-      <sparkle:version>0.3</sparkle:version>
-      <sparkle:shortVersionString>0.3</sparkle:shortVersionString>
+      <title>Version 0.3.1</title>
+      <pubDate>Wed, 10 Jun 2026 13:51:07 +0000</pubDate>
+      <sparkle:version>0.3.1</sparkle:version>
+      <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
       <sparkle:releaseNotesLink>https://saadbelfqih.github.io/cleanmydev-releases/release_notes.html</sparkle:releaseNotesLink>
       <description><![CDATA[<ul>
-<li>Fixed a production crash when bundled tool icon resources could not be resolved.</li>
-<li>Sparkle auto-update support.</li>
+<li>Fixed cleanup rows that reappeared after deletion by making retained-session targets scan only the children that cleanup can actually remove.</li>
+<li>Added post-clean verification so rows stay visible with a clear message if files remain because they are protected, in use, or regenerated.</li>
+<li>Added per-target review controls for deleting retained recent sessions when users explicitly want everything removed.</li>
+<li>Added Select All in the bottom bar, including destructive rows.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/SaadBelfqih/cleanmydev-releases/releases/download/v0.3/CleanMyDev.dmg"
+      <enclosure url="https://github.com/SaadBelfqih/cleanmydev-releases/releases/download/v0.3.1/CleanMyDev.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="0LSb8zULFyAmTRS6s/oC0tO0okLGFHfIPw4XfNbJ1v+WRhTP34CzO8+Aw4BDwIp7ubqzF2MYPmfiU1A5py/IBw=="
-                 length="8315900"/>
+                 sparkle:edSignature="k+d2ACPM8UlDrWpv1KCEZo+dmvFkYPgyJ07sqNsCGxW9D2EYwYDEbDq9aJApboFKfdo1QUmZHSi8oIxmnQyDDQ=="
+                 length="8340121"/>
     </item>
   </channel>
 </rss>

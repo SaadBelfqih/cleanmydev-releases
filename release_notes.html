@@ -1,11 +1,13 @@
 <!doctype html>
 <html>
-<head><meta charset="utf-8"><title>CleanMyDev 0.3 release notes</title></head>
+<head><meta charset="utf-8"><title>CleanMyDev 0.3.1 release notes</title></head>
 <body>
-<h1>CleanMyDev 0.3</h1>
+<h1>CleanMyDev 0.3.1</h1>
 <ul>
-<li>Fixed a production crash when bundled tool icon resources could not be resolved.</li>
-<li>Sparkle auto-update support.</li>
+<li>Fixed cleanup rows that reappeared after deletion by making retained-session targets scan only the children that cleanup can actually remove.</li>
+<li>Added post-clean verification so rows stay visible with a clear message if files remain because they are protected, in use, or regenerated.</li>
+<li>Added per-target review controls for deleting retained recent sessions when users explicitly want everything removed.</li>
+<li>Added Select All in the bottom bar, including destructive rows.</li>
 </ul>
 </body>
 </html>
