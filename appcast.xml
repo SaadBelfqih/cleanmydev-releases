@@ -6,22 +6,24 @@
     <description>Most recent update for CleanMyDev.</description>
     <language>en</language>
     <item>
-      <title>Version 0.3.1</title>
-      <pubDate>Wed, 10 Jun 2026 13:51:07 +0000</pubDate>
-      <sparkle:version>0.3.1</sparkle:version>
-      <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
+      <title>Version 0.4.0</title>
+      <pubDate>Thu, 11 Jun 2026 20:17:30 +0000</pubDate>
+      <sparkle:version>0.4.0</sparkle:version>
+      <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
       <sparkle:releaseNotesLink>https://saadbelfqih.github.io/cleanmydev-releases/release_notes.html</sparkle:releaseNotesLink>
       <description><![CDATA[<ul>
-<li>Fixed cleanup rows that reappeared after deletion by making retained-session targets scan only the children that cleanup can actually remove.</li>
-<li>Added post-clean verification so rows stay visible with a clear message if files remain because they are protected, in use, or regenerated.</li>
-<li>Added per-target review controls for deleting retained recent sessions when users explicitly want everything removed.</li>
-<li>Added Select All in the bottom bar, including destructive rows.</li>
+<li>Added a License menu in the macOS menu bar with status, refresh, manage, and deactivate actions.</li>
+<li>Added an in-app License header menu for licensed users so they can view status or deactivate this Mac without hunting through menus.</li>
+<li>Expanded the License sheet with account, machine name, masked key, activation date, last checked date, refresh status, and a clearer “Deactivate This Mac” action.</li>
+<li>Updated website download CTAs to use `/download`, so buyers and visitors get the latest DMG directly.</li>
+<li>Removed the GitHub footer link from the website.</li>
+<li>Polished the website’s macOS Storage panel preview to more closely match System Settings.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/SaadBelfqih/cleanmydev-releases/releases/download/v0.3.1/CleanMyDev.dmg"
+      <enclosure url="https://github.com/SaadBelfqih/cleanmydev-releases/releases/download/v0.4.0/CleanMyDev.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="k+d2ACPM8UlDrWpv1KCEZo+dmvFkYPgyJ07sqNsCGxW9D2EYwYDEbDq9aJApboFKfdo1QUmZHSi8oIxmnQyDDQ=="
-                 length="8340121"/>
+                 sparkle:edSignature="FbpkcZXRG46nJzXzo/I+rviEM2usEyAY5Yf+q6dPYKMKNJ82m9pBvyIIJ2VVJAFwl12/nbHNJFTBZsMO1sPoDQ=="
+                 length="8365421"/>
     </item>
   </channel>
 </rss>
